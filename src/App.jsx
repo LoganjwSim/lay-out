@@ -1,4 +1,6 @@
+import Banner from "./components/Banner";
 import Header from "./components/Header";
+import KdtSection from "./components/KdtSection";
 import TopBanner from "./components/TopBanner";
 
 const App = () => {
@@ -6,22 +8,8 @@ const App = () => {
     <div className="font-pretendard text-techit-gray-300">
       <TopBanner />
       <Header />
-      <div className="bg-blue-100 h-[400px]">Banner</div>
-      <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
-        <div className="bg-red-100 h-[64.5px]">KDT</div>
-        <div className="bg-purple-100 grid grid-cols-4 gap-6 justify-items-center">
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-        </div>
-      </section>
+      <Banner />
+      <KdtSection />
       <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
         <div className="bg-red-100 h-[64.5px]">Schedule</div>
         <div className="bg-blue-100 h-[280px]">KDT</div>
